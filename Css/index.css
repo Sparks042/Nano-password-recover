@@ -63,10 +63,9 @@ color: #585858;
     background-color: #2A0B61;
     border: 1px solid #2A0B61;
     position: absolute;
-    bottom: 25%;
-    left: 55%;
-    width: 7.5%;
-    height: 6.5%;
+    bottom: 16%;
+    left: 68%;
+    height: 13%;
 }
 a{
     text-decoration: none;
@@ -97,15 +96,32 @@ h1{
     width: 260%;
 }
 #button{
-    width: 25%;
-    /* position: absolute; */
-    /* top: 50.5%; */
-    margin-left: 18px;
-    margin-bottom: 10px;
-    height: 8%;
+    width: 80%;
+    position: absolute;
+    top: 74%;
+    margin-left: 19px;
+    margin-bottom: 30px;
+    height: 13%;
 }
 label{
-    margin-right: 155%;
+    margin-right: 160%;
     margin-bottom: -22px;
+}
+}
+
+
+
+@media (min-width:600px) and (max-width:900px)  {
+img{
+    padding: 30px;
+}
+.password-recover-container{
+    margin-top: -3%;
+    width: 50%;
+    margin-left: 25%;
+}
+#button{
+    height: 50px;
+    bottom: 22%;
 }
 }
